@@ -1,0 +1,38 @@
+.rootDiv{
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+}
+.urlShortenForm{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    max-width: max-content;
+}
+button{
+    color: white;
+    background-color: #144EE3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-color: aliceblue;
+    max-width: 200px;
+}
+#logURlInput{
+    width: 70%;
+    height: 50px;
+    border-radius: 50px;
+    border-color: beige;
+    padding-left: 25px;
+}

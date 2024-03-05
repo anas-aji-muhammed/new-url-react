@@ -1,0 +1,28 @@
+#rootDiv{
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  thead {
+    background-color: #181E29;
+  }
+
+  tr{
+    border: #181E29 1px solid;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #181E29;
+  }
+
+  
