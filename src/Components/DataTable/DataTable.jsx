@@ -34,7 +34,7 @@ function DataTable({ data }) {
             <td>{formatDate(row.createdDateTime)}</td>
             <td>
                 <button onClick={()=>{
-                    navigate(`/details/${row.urlHash}`);
+                    navigate(`/details/${row.id}`, { state: {baseUrl: data.baseURL, urlData:row}});
                 }}>View Details</button>
                 </td>
           </tr>
